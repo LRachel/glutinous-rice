@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" >
 	<title>百度糯米</title>
 	<link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="./css/index.css">
-	
+	<script src="./vendor/jquery/jquery-1.11.3.min.js"></script>
+	<script src="./js/index.js"></script>
 </head>
 <body>
+	<!--top导航区域-->
 	<div class="top">
 		<div class="header-bar container">
 			<ul class="leftcity">
@@ -120,6 +122,4057 @@
 			</ul>
 		</div>
 	</div>
+	<!--logo区域、搜索框区域、工具区域-->
+	<div class="container header">
+		<div class="logo-area">
+			<a href="https://www.nuomi.com" class="logo" title="百度糯米">
+				<img src="../images/mylife.png" alt="">
+				<!--  -->
+			</a>
+		</div>
+		<div class="utils clearfix">
+			<div class="util-item item-left" title="未消费，随便退！">
+				<span class="retreat">退</span>
+			</div>
+			<div class="util-item item-center" title="消费不满意先行赔付！">
+				<span class="retreat">赔</span>
+			</div>
+			<div class="util-item item-right" title="过期自动退！">
+				<span class="retreat glyphicon glyphicon-yen"></span>
+			</div>
+		</div>
+		<div class="search-area">
+			<div class="form-wrap">
+				<form action="https://www.nuomi.com/search">
+					<div class="input-group inputgroup">
+				      	<input type="text" class="form-control formctrl" placeholder="搜索商家或地点">
+				      	<span class="input-group-btn">
+				        	<button class="btn btn-default needHoverBgc" type="button">
+				        		<span class="glyphicon glyphicon-search"></span>
+				        	</button>
+				      	</span>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+	</div>
+	<!-- 导航条 -->
+	<div class="nav-bar-header container">
+		<div class="nav-inner">
+			<ul class="nav-list">
+				<li class="nav-item all-cate">
+					<span class="item allitem">全部分类</span>
+					<div class="left-menu clearfix">
+
+						<div class="level-item">
+							<div class="first-level">
+								<dl>
+									<dt class="title"><a href="">美食</a></dt>
+									<dd><a href="">精选品牌</a></dd>
+									<dd><a href="">小吃快餐</a></dd>
+								</dl>
+							</div>
+							<div class="second-level with-min">
+								<div class="section clearfix">
+									<div class="section-item clearfix no-top-border">
+										<h3>热门分类</h3>
+										<ul>
+											<li><a class="hot" href="">精选品牌</a></li>
+											<li><a href="">其他美食</a></li>
+											<li><a href="">火锅</a></li>
+											<li><a href="">小吃快餐</a></li>
+											<li><a href="">自助餐</a></li>
+											<li><a href="">海鲜</a></li>
+											<li><a href="">烧烤/烤肉</a></li>
+											<li><a href="">干锅/香锅</a></li>
+											<li><a href="">甜品</a></li>
+											<li><a href="">蛋糕</a></li>
+											<li><a href="">咖啡</a></li>
+											<li><a href="">婚宴</a></li>
+											<li><a href="">夏日饮品</a></li>
+											<li><a href="">小龙虾</a></li>
+											<li><a href="">酒吧</a></li>
+											<li><a href="">粥店</a></li>
+										</ul>
+									</div>
+									<div class="section-item clearfix">
+										<h3>中国菜</h3>
+										<ul>
+											<li><a href="">粤菜</a></li>
+											<li><a href="">川湘菜</a></li>
+											<li><a href="">江浙菜</a></li>
+											<li><a href="">北京菜</a></li>
+											<li><a href="">新疆菜</a></li>
+											<li><a href="">东北菜</a></li>
+											<li><a href="">云贵菜</a></li>
+											<li><a href="">鲁菜</a></li>
+											<li><a href="">西北菜</a></li>
+											<li><a href="">素食</a></li>
+											<li><a href="">创意菜/私房菜</a></li>
+											<li><a href="">台湾菜/客家菜</a></li>
+											<li><a href="">徽菜</a></li>
+											<li><a href="">烤鱼</a></li>
+											<li><a href="">烤鸭</a></li>
+											<li><a href="">麻辣烫/冒菜</a></li>
+											<li><a href="">中餐/家常菜</a></li>
+										</ul>
+									</div>
+									<div class="section-item clearfix">
+										<h3>外国菜</h3>
+										<ul>
+											<li><a href="">日韩料理</a></li>
+											<li><a href="">东南亚菜</a></li>
+											<li><a href="">西餐</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="level-item">
+							<div class="first-level">
+								<dl>
+									<dt class="title"><a href="">电影</a></dt>
+									<dd><a href="">在线订座</a></dd>
+								</dl>
+							</div>
+							<div class="second-level with-min">
+								<div class="section clearfix">
+									<div class="section-item clearfix no-top-border">
+										<h3>热门影片</h3>
+										<ul>
+											<li><a href="">战狼2</a></li>
+											<li><a href="">星际特工：千星之城</a></li>
+											<li><a href="">杀破狼·贪狼</a></li>
+											<li><a href="">极盗车神</a></li>
+											<li><a href="">赛车总动员3：极速挑战</a></li>
+											<li><a href="">十万个冷笑话2</a></li>
+											<li><a href="">敦刻尔克</a></li>
+											<li><a href="">二十二</a></li>
+										</ul>
+									</div>
+									<div class="section-item clearfix">
+										<h3>热门院线</h3>
+										<ul>
+											<li><a href="">郑州横店电影城(北金店)</a></li>
+											<li><a href="">郑州横店电影城(百盛店)</a></li>
+											<li><a href="">万达国际影城(二七店)</a></li>
+											<li><a href="">奥斯卡国际影城(大上海店)</a></li>
+											<li><a href="">万达影城(郑州中原万达广场店)</a></li>
+											<li><a href="">郑州奥斯卡新建文影城</a></li>
+											<li><a href="">奥斯卡升龙国际影城</a></li>
+											<li><a href="">奥斯卡影城(曼哈顿店)</a></li>
+											<li><a href="">奥斯卡国际激光影城(中原新城店)</a></li>
+											<li><a href="">万达影城郑州金水奥纳店</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="level-item">
+							<div class="first-level">
+								<dl>
+									<dt class="title"><a href="">休闲娱乐</a></dt>
+									<dd><a href="">热门音乐</a></dd>
+									<dd><a href="">KTV</a></dd>
+								</dl>
+							</div>
+							<div class="second-level with-min">
+								<div class="section clearfix">
+									<div class="section-item clearfix no-top-border">
+										<ul>
+											<li><a href="">温泉洗浴</a></li>
+											<li><a href="">KTV</a></li>
+											<li><a href="">足疗按摩</a></li>
+											<li><a href="">文化艺术</a></li>
+											<li><a href="">采摘</a></li>
+											<li><a href="">私人影院</a></li>
+											<li><a href="">桌游</a></li>
+											<li><a href="">电玩/游戏币</a></li>
+											<li><a href="">DIY手工</a></li>
+											<li><a href="">密室逃脱</a></li>
+											<li><a href="">真人CS</a></li>
+											<li><a href="">卡丁车</a></li>
+											<li><a href="">其他娱乐活动</a></li>
+											<li><a href="">游泳</a></li>
+											<li><a href="">滑雪/滑冰</a></li>
+										</ul>
+										<ul>
+											<li><a href="">养生保健</a></li>
+											<li><a href="">游乐园/水上乐园</a></li>
+											<li><a href="">录音棚</a></li>
+											<li><a href="">运动健身</a></li>
+											<li><a href="">演出赛事</a></li>
+											<li><a href="">轰趴馆</a></li>
+											<li><a href="">网吧网咖</a></li>
+											<li><a href="">VR体验馆</a></li>
+											<li><a href="">玩酷</a></li>
+											<li><a href="">画室画廊</a></li>
+											<li><a href="">台球</a></li>
+											<li><a href="">展览</a></li>
+											<li><a href="">同城活动</a></li>
+											<li><a href="">今日新单</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="level-item">
+							<div class="first-level">
+								<dl>
+									<dt class="title"><a href="">生活服务</a></dt>
+									<dd><a href="">丽人</a></dd>
+									<dd><a href="">配镜</a></dd>
+								</dl>
+							</div>
+							<div class="second-level with-min">
+								<div class="section clearfix">
+									<div class="section-item clearfix no-top-border">
+										<ul>
+											<li><a href="">宠物服务</a></li>
+											<li><a href="">教育培训</a></li>
+											<li><a href="">儿童摄影</a></li>
+											<li><a href="">口腔</a></li>
+											<li><a href="">其他生活服务</a></li>
+											<li><a href="">婚纱摄影</a></li>
+											<li><a href="">个性写真</a></li>
+											<li><a href="">体验</a></li>
+											<li><a href="">亲子</a></li>
+											<li><a href="">配镜</a></li>
+											<li><a href="">服装定制</a></li>
+											<li><a href="">洗衣</a></li>
+											<li><a href="">婚庆服务</a></li>
+											<li><a href="">本地购物</a></li>
+											<li><a href="">照片服务</a></li>
+										</ul>
+										<ul>
+											<li><a href="">照片冲印</a></li>
+											<li><a href="">家政服务</a></li>
+											<li><a href="">鲜花</a></li>
+											<li><a href="">充值服务</a></li>
+											<li><a href="">丽人</a></li>
+											<li><a href="">药品</a></li>
+											<li><a href="">医疗器械</a></li>
+											<li><a href="">旅拍婚纱</a></li>
+											<li><a href="">婚纱礼服</a></li>
+											<li><a href="">珠宝首饰</a></li>
+											<li><a href="">绿植</a></li>
+											<li><a href="">皮质家具护理</a></li>
+											<li><a href="">维修</a></li>
+											<li><a href="">家电维修</a></li>
+											<li><a href="">开锁</a></li>
+											<li><a href="">管道疏通</a></li>
+											<li><a href="">家装设计</a></li>
+											<li><a href="">建材家居</a></li>
+											<li><a href="">搬家服务</a></li>
+											<li><a href="">闪送超市</a></li>
+											<li><a href="">宠物狗</a></li>
+											<li><a href="">宠物猫</a></li>
+											<li><a href="">花鸟鱼虫</a></li>
+											<li><a href="">宠物店服务</a></li>
+											<li><a href="">宠物用品食品</a></li>
+											<li><a href="">其他宠物服务</a></li>
+											<li><a href="">皮衣护理</a></li>
+											<li><a href="">皮包护理</a></li>
+											<li><a href="">洗鞋</a></li>
+											<li><a href="">家装</a></li>
+											<li><a href="">证件照</a></li>
+											<li><a href="">DIY台历</a></li>
+											<li><a href="">海报制作</a></li>
+											<li><a href="">购物商场</a></li>
+											<li><a href="">送水送奶</a></li>
+											<li><a href="">家政保洁</a></li>
+											<li><a href="">体验口腔</a></li>
+											<li><a href="">今日新单</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="level-item">
+							<div class="first-level">
+								<dl>
+									<dt class="title"><a href="">酒店</a></dt>
+									<dd><a href="">郑州</a></dd>
+									<dd><a href="">北京</a></dd>
+									<dd><a href="">上海</a></dd>
+								</dl>
+							</div>
+						</div>
+
+						<div class="level-item">
+							<div class="first-level">
+								<dl>
+									<dt class="title"><a href="">本地生活</a></dt>
+									<dd><a href="">温泉洗浴</a></dd>
+								</dl>
+							</div>
+							<div class="second-level with-min">
+								<div class="section clearfix">
+									<div class="section-item clearfix no-top-border">
+										<ul>
+											<li><a href="">温泉洗浴</a></li>
+											<li><a href="">采摘</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="level-item">
+							<div class="first-level">
+								<dl>
+									<dt class="title"><a href="">丽人</a></dt>
+									<dd><a href="">美发</a></dd>
+									<dd><a href="">美容SPA</a></dd>
+									<dd><a href="">美甲</a></dd>
+								</dl>
+							</div>
+							<div class="second-level with-min">
+								<div class="section clearfix">
+									<div class="section-item clearfix no-top-border">
+										<h3></h3>
+										<ul>
+											<li><a href="">美甲</a></li>
+											<li><a href="">美发</a></li>
+											<li><a href="">美容SPA</a></li>
+											<li><a href="">化妆</a></li>
+											<li><a href="">其他丽人</a></li>
+											<li><a href="">美睫</a></li>
+											<li><a href="">瑜伽</a></li>
+											<li><a href="">舞蹈</a></li>
+											<li><a href="">美瞳</a></li>
+											<li><a href="">美足</a></li>
+											<li><a href="">医疗美容</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item every-item nav-item-first"><a class="item" href="">首页</a></li>
+				<li class="nav-item every-item hot-item-l">
+					<a class="item every-item" href="">精选品牌<span class="hot">Hot</span></a>
+					
+				</li>
+				<li class="nav-item every-item hot-item-s">
+					<a class="item" href="">电影<span class="hot">Hot</span></a>
+					
+				</li>
+				<li class="nav-item every-item hotel"><a class="item" href="">酒店</a></li>
+				<li class="nav-item every-item item-dropdown">
+					<a class="item" href="">出行&nbsp;<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+				    	<li class="dropdown-item"><a href="#"><div>机票</div></a></li>
+				    	<li class="dropdown-item"><a href="#"><div>火车票</div></a></li>
+				    	<li class="dropdown-item"><a href="#"><div>汽车票</div></a></li>
+				  	</ul>		
+				</li>
+				<li class="nav-item every-item onemoney"><a class="item" href="">一元抢宝</a></li>
+				<li class="nav-item every-item out-food"><a class="item" href="">外卖</a></li>
+				<li class="nav-item every-item today"><a class="item" href="">今日新单</a></li>
+				<li class="nav-item every-item marry"><a class="item" href="">结婚</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 图片内容 -->
+	<div class="imageArea container">
+		<div class="top-container clearfix">
+			<div class="mid-area">
+				<div class="slide-holder">
+					<a class="item-large" href="">
+						<img class="ad-pic" src="./images/banner.jpg" alt="">
+					</a>
+				</div>
+				<div class="list-container">
+					<div class="list-wrapper">
+						<div class="title">热门团购</div>
+						<ul class="mid-list">
+							<li><a href="">电影</a></li>
+							<li><a class="hot" href="">自助餐</a></li>
+							<li><a href="">KTV</a></li>
+							<li><a class="hot" href="">火锅</a></li>
+							<li><a href="">蛋糕</a></li>
+							<li><a class="hot" href="">酒店</a></li>
+							<li><a href="">小吃快餐</a></li>
+							<li><a href="">西餐</a></li>
+						</ul>
+					</div>
+					<div class="list-wrapper">
+						<div class="title">全部区域</div>
+						<ul class="mid-list">
+							<li><a href="">金水区</a></li>
+							<li><a href="">二七区</a></li>
+							<li><a href="">管城区</a></li>
+							<li><a href="">中原区</a></li>
+							<li><a href="">新郑市</a></li>
+							<li><a href="">中牟县</a></li>
+							<li><a href="">巩义市</a></li>
+							<li><a href="">登封市</a></li>
+							<li><a href="">新密市</a></li>
+							<li><a href="">惠济区</a></li>
+							<li><a href="">上街区</a></li>
+							<li><a href="">荥阳市</a></li>
+						</ul>
+						<div class="all-locate">
+							<div>
+								<span class="glyphicon glyphicon-triangle-bottom"></span>
+							</div>
+							<div class="all-location-list">
+								<div class="title">全部区域</div>
+								<ul class="mid-list">
+									<li><a href="">金水区</a></li>
+									<li><a href="">二七区</a></li>
+									<li><a href="">管城区</a></li>
+									<li><a href="">中原区</a></li>
+									<li><a href="">新郑市</a></li>
+									<li><a href="">中牟县</a></li>
+									<li><a href="">巩义市</a></li>
+									<li><a href="">登封市</a></li>
+									<li><a href="">新密市</a></li>
+									<li><a href="">惠济区</a></li>
+									<li><a href="">上街区</a></li>
+									<li><a href="">荥阳市</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="list-wrapper last">
+						<div class="title">热门商圈</div>
+						<ul class="mid-list">
+							<li><a href="">紫荆山</a></li>
+							<li><a href="">新建文</a></li>
+							<li><a href="">新百货世界</a></li>
+							<li><a href="">科技市场</a></li>
+							<li><a href="">北环陈砦</a></li>
+							<li><a href="">郑东新区</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 右边图片 -->
+		<div class="right-sidebar">
+			<div class="rightAd">
+				<a href="">
+					<img src="./images/jipiao.jpg" alt="">
+				</a>
+			</div>
+			<div class="right-erweima">
+				<a href="">
+					<img src="./images/app.jpg" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="content-container">
+			<div class="no-recom-container">
+				<div class="right-container">
+					<div class="hot-mall">
+						<a href="" class="hot-mall-detail">
+							<img src="./images/05.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="top-collect-nsa">
+						<div class="top-title clearfix header-e">
+							<span class="title">精选品牌</span>
+							<span class="sub-title">&nbsp;-&nbsp;抢购频道</span>
+							<span class="over"></span>
+							<span class="right-all">
+								<a href="">
+									全部
+									<span class="all-white-arrow"></span>
+								</a>
+							</span>
+						</div>
+						<ul class="itemlist clearfix">
+							<li class="no-left-margin">
+								<a href="">
+									<div class="imgbox">
+										<div class="borderbox">
+											<img src="./images/zhuangyuan.jpg" alt="">
+										</div>
+									</div>
+									<div class="header clearfix">
+										<h4 class="title">状元烤场</h4>
+									</div>
+									<div class="pinfo clearfix">
+										<span class="price">
+											<span class="moneyico">￥</span>52.9
+										</span>
+										<span class="ori-price right-pos">
+											<span class="price-line">
+												￥
+												<span>58</span>
+											</span>
+										</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="imgbox">
+										<div class="borderbox">
+											<img src="./images/014.jpg" alt="">
+										</div>
+									</div>
+									<div class="header">
+										<h4 class="title">优乐涮自助餐</h4>
+									</div>
+									<div class="pinfo">
+										<span class="price">
+											<span class="moneyico">￥</span>44
+										</span>
+										<span class="ori-price right-pos">
+											<span class="price-line">
+												￥
+												<span>50</span>
+											</span>
+										</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="imgbox">
+										<div class="borderbox">
+											<img src="./images/waipo.jpg" alt="">
+										</div>
+									</div>
+									<div class="header">
+										<h4 class="title">外婆私房菜</h4>
+									</div>
+									<div class="pinfo">
+										<span class="price">
+											<span class="moneyico">￥</span>98
+										</span>
+										<span class="ori-price right-pos">
+											<span class="price-line">
+												￥
+												<span>100</span>
+											</span>
+										</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="imgbox">
+										<div class="borderbox">
+											<img src="./images/jueshi.jpg" alt="">
+										</div>
+									</div>
+									<div class="header">
+										<h4 class="title">爵士牛排</h4>
+									</div>
+									<div class="pinfo">
+										<span class="price">
+											<span class="moneyico">￥</span>36.9
+										</span>
+										<span class="ori-price right-pos">
+											<span class="price-line">
+												￥
+												<span>48</span>
+											</span>
+										</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="sidecate nav t10-fix">
+						<ul>
+							<li>
+								<a href="">
+									<span class="glyphicon glyphicon-cutlery"></span>
+									<span class="inner-text">美食</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span class="glyphicon glyphicon-glass"></span>
+									<span class="inner-text">娱乐</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span class="glyphicon glyphicon-home"></span>
+									<span class="inner-text">生活</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span class="glyphicon glyphicon-object-align-bottom"></span>
+									<span class="inner-text">酒店</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span class="glyphicon glyphicon-map-marker"></span>
+									<span class="inner-text">本地</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span class="glyphicon glyphicon-user"></span>
+									<span class="inner-text">丽人</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="floor-content-start">
+						<div class="floor-content">
+							<div class="floor-header">
+								<span id="title-floor-l">
+									<span class="glyphicon glyphicon-cutlery"></span>
+								</span>
+								<h3>美食</h3>
+								<ul class="reco-words">
+									<li><a href="">精选品牌</a></li>
+									<li><a href="">小吃快餐</a></li>
+									<li><a href="">西餐</a></li>
+									<li><a href="">其他美食</a></li>
+									<li>
+										<a class="no-right-border no-right-padding" href="">
+											全部
+											<span class="all-cate-arrow"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="itemlist eight-row-height">
+								<li class="row-first-item narow-first-item clear-first">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/yonghe.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【郑东新区】永和铂爵国际酒店</h4>
+											</div>
+											<p>单人自助晚餐！节假日通用！免费停车，免费wifi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>288
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>348</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售4203</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/1.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】贝客新语</h4>
+											</div>
+											<p>巩义店水果蛋糕套餐！可叠加使用！提供免费车位！提供免费WiFi！节假日通用，仅限自提！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>78
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>98</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售2730</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/2.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】味美斯烘焙</h4>
+											</div>
+											<p>单人自助晚餐！节假日通用！免费停车，免费wifi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>288
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>348</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售4203</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/3.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】贝客新语</h4>
+											</div>
+											<p>巩义店水果蛋糕套餐！可叠加使用！&nbsp;提供免费停车位！提供免费WiFi！节假日通用，仅限自提！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>78
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>98</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售2733</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/4.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】味美斯烘焙坊</h4>
+											</div>
+											<p>8寸水果蛋糕！浓郁醇美，口口甜蜜入心，艺术的呈现，幸福的滋味，甜蜜融化，配送自提均可，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>48
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>68</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售3074</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/5.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【11店通用】七若滋好来の利</h4>
+											</div>
+											<p>8寸蛋糕2选1！节假日通用，配送自提均可！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>98
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>128</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.6分</span>
+											<span class="sold">已售1019</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/6.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】多乐滋蛋糕</h4>
+											</div>
+											<p>多乐滋蛋糕，配送自提均可！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>48
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>68</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售1192</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/7.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【7店通用】卡米琪</h4>
+											</div>
+											<p>8英寸蛋糕4选1！节假日通用，请于消费前5小时进行预约，店内提供免费WiFi，配送自提均可，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>78
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>178</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售7388</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/8.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【朗曼假日】爱拉屋烘焙坊</h4>
+											</div>
+											<p>体育馆店4英寸彩虹蛋糕！节假日通用，提供免费停车位、WiFi，仅限自提！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>18.8
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>21</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售2180</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/9.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【10店通用】戈雪儿蛋糕</h4>
+											</div>
+											<p>10寸+6寸双层蛋糕1个！配送自提均可，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>98
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>196</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.6分</span>
+											<span class="sold">已售1537</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/10.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】戴妃·麦客蛋糕专家</h4>
+											</div>
+											<p>11英寸蛋糕（2选1）1份！环境温馨，服务热情，独特造型，健康美味，配送自提均可，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>98
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>168</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售3507</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/11.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【3店通用】金帝威尔音乐蛋糕连锁</h4>
+											</div>
+											<p>10英寸欧式巧克力蛋糕！精选食材，精心制作，口感细腻，香甜可口，尽享甜蜜幸福！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>118
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>158</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售2049</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/12.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【二七万达】韩之风时尚自助餐吧</h4>
+											</div>
+											<p>单人自助晚餐1份！免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>55.8
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>60</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">3.8分</span>
+											<span class="sold">已售1457</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/13.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【7店通用】卡米琪</h4>
+											</div>
+											<p>酸奶蛋糕5选1！爱心烘焙，甜蜜绽放，美味升温爱浪漫，演绎香醇甜蜜好滋味</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>88
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>178</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售1849</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/14.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【大石桥】一度</h4>
+											</div>
+											<p>蛋糕1个！配送自提均可，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>39.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>97</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.9分</span>
+											<span class="sold">已售328</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/15.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【7店通用】元典烘焙</h4>
+											</div>
+											<p>8寸慕斯蛋糕1份！仅限自提，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>158
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>188</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.6分</span>
+											<span class="sold">已售2818</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/16.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【8店通用】元典津津</h4>
+											</div>
+											<p>8英寸慕斯蛋糕！节假日通用，提前2天预约，提供免费停车位，免费WiFi，仅限自提，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>126
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>148</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售2080</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/17.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【炎黄广场】汉釜宫</h4>
+											</div>
+											<p>单人晚餐1份！免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>47.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>59</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.4分</span>
+											<span class="sold">已售1637</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/18.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】爱尚蛋糕</h4>
+											</div>
+											<p>8寸欧式水果蛋糕！甄选上乘原材料，款式时尚，丝滑细腻的奶油，天然健康，水果丰富！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>68
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>88</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售947</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/19.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【炎黄广场】汉釜宫</h4>
+											</div>
+											<p>单人午餐券1份！免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>41.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>49</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.5分</span>
+											<span class="sold">已售1195</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/20.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【东站】东城门蛋糕</h4>
+											</div>
+											<p>公安局路口店6英寸蛋糕！节假日通用，提供免费停车位，店内提供免费无线WiFi，仅限自提！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>30
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>38</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.6分</span>
+											<span class="sold">已售830</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/39.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】戴妃·麦客蛋糕专家</h4>
+											</div>
+											<p>8.5英寸蛋糕（2选1）1份！食材新鲜，营养！糯米劵可叠加，配送自提均可！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>68.8
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>108</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售2594</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/21.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】多乐滋蛋糕</h4>
+											</div>
+											<p>多乐滋蛋糕，配送自提均可！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>68
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>108</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售1039</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/22.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【铝城公园】颐园蛋糕</h4>
+											</div>
+											<p>价值30元代金券！节假日通用，可叠加使用，免预约，提供免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>23.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>30</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售823</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/23.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【二七广场】鑫海汇海鲜烤肉自助</h4>
+											</div>
+											<p>周六日节假日全天价单人自助餐1份！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>59.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>69</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.4分</span>
+											<span class="sold">已售1564</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/24.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】优乐涮烤自助餐厅</h4>
+											</div>
+											<p>登封店双人自助晚餐！免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>96.5
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>110</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.5分</span>
+											<span class="sold">已售1159</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/25.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【华南城】木槿花韩式自助烤肉</h4>
+											</div>
+											<p>单人自助晚餐1位！免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>53.8
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>59</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.0分</span>
+											<span class="sold">已售1354</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/26.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【锦艺城】巴萨奴纳牛排海鲜自助餐</h4>
+											</div>
+											<p>牛排海鲜自助单人午餐1位！免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>56
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>78</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.3分</span>
+											<span class="sold">已售1120</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/27.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】Amy-cake甜点</h4>
+											</div>
+											<p>4英寸水果蛋糕！节假日通用，提供免费WiFi、停车位，仅限自提，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>48.8
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>58</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售981</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/28.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】大师傅蛋糕</h4>
+											</div>
+											<p>8英寸水果蛋糕1个！新鲜食材，用心烘焙，甜到心坎里，满满的心意融化在味道里，仅限自提，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>55
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>88</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.3分</span>
+											<span class="sold">已售1508</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/29.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【华南城】木槿花韩式自助烤肉</h4>
+											</div>
+											<p>单人自助午餐1位！免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>44.8
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>49</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售1025</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/30.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【祥和新街坊】花千代烤鱼</h4>
+											</div>
+											<p>4人餐！提供免费停车位、免费WiFi，节假日通用！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>219
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>258.39</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售4740</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/31.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】东城门蛋糕</h4>
+											</div>
+											<p>东城门蛋糕</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>58
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>98</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售829</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/32.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】葛记焖饼</h4>
+											</div>
+											<p>美味套餐！菜品丰富新鲜，味道香醇，色美肉嫩！浓香外溢，回味无穷，美味等你来享用！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>299
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>424</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.6分</span>
+											<span class="sold">已售887</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/33.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【丰业生活广场】德庄一品自助烧烤涮</h4>
+											</div>
+											<p>单人自助午餐1位！免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>46.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>59</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.6分</span>
+											<span class="sold">已售897</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/34.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】咖啡之翼</h4>
+											</div>
+											<p>双人餐，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>106
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>218</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售1113</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/35.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】好运来蛋糕</h4>
+											</div>
+											<p>登封中岳大街店8寸水果奶油蛋糕！纯正乳脂鲜奶油，比利时焙乐道果馅夹心，全部当天制作，！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>65
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>108</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售2494</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/36.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【郑东新区】好利家</h4>
+											</div>
+											<p>8寸精品蛋糕！节假日通用！请提前3小时预约！ 提供免费WiFi，配送自提均可，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>78
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>156</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.6分</span>
+											<span class="sold">已售488</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/37.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【升龙广场】北京汉丽轩自助烤肉</h4>
+											</div>
+											<p>汉丽轩单人自助晚餐1份！免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>46.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>58</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">3.9分</span>
+											<span class="sold">已售1652</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/38.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】韩鲜坊烧烤涮自助餐厅</h4>
+											</div>
+											<p>单人自助午餐1份！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>50.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>69</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.9分</span>
+											<span class="sold">已售536</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<a href="" class="check-all">
+								查看全部团购
+								<span class="all-cate-arrow"></span>
+							</a>
+						</div>
+						<div class="floor-content">
+							<div class="floor-header">
+								<span id="title-floor-l">
+									<span class="glyphicon glyphicon-glass"></span>
+								</span>
+								<h3>娱乐</h3>
+								<ul class="reco-words">
+									<li><a href="">热门音乐</a></li>
+									<li><a href="">KTV</a></li>
+									<li><a href="">足疗按摩</a></li>
+									<li><a href="">温泉洗浴</a></li>
+									<li>
+										<a class="no-right-border no-right-padding" href="">
+											全部
+											<span class="all-cate-arrow"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="itemlist eight-row-height">
+								<li class="row-first-item narow-first-item clear-first">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/101.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】嘉年华KTV</h4>
+											</div>
+											<p>下午场小包欢唱套餐！免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>38
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>468</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售2969</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/105.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】玉麟男士SPA</h4>
+											</div>
+											<p>双人尊贵按摩1次！提供洗浴用品，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>999
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>3778</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售146</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/107.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【中原新城】美美时尚主题KTV</h4>
+											</div>
+											<p>中原新城店90元小包欢唱三小时！店内提供免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>24
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>90</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售2926</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/102.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【紫荆山】K秀馆主题量贩KTV</h4>
+											</div>
+											<p>下午场/午夜场2选1欢唱6小时+小吃套餐！免费WiFi、停车位！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>25
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>328</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售1618</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/108.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【西元国际广场】美美时尚主题KTV</h4>
+											</div>
+											<p>西元国际店小包欢唱3小时！提供免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>36
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>144</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.6分</span>
+											<span class="sold">已售6758</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/103.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【西亚斯】断片聚会餐厅</h4>
+											</div>
+											<p>劲爆阳光场欢唱1选1！免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>9.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>429</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售1446</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/104.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【大石桥】东方金柜量贩式KTV</h4>
+											</div>
+											<p>大石桥店阳光场小包欢唱套餐！节假日通用，提前3小时预约，提供免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>29
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>123</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.5分</span>
+											<span class="sold">已售1128</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/110.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】嗨麦纯K</h4>
+											</div>
+											<p>时尚小包阳光场！节假日通用！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>19.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>288</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售4444</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/111.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【铝城公园】新新城量贩式KTV</h4>
+											</div>
+											<p>KTV下午场！爆米花，果盘，设施齐全，全新感受！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>19
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>388</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.5分</span>
+											<span class="sold">已售1331</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/112.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【8店通用】歌迷量贩KTV</h4>
+											</div>
+											<p>下午场/午夜场超值欢唱套餐！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>64
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>285</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售8007</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<a href="" class="check-all">
+								查看全部团购
+								<span class="all-cate-arrow"></span>
+							</a>
+						</div>
+						<div class="floor-content">
+							<div class="floor-header">
+								<span id="title-floor-l">
+									<span class="glyphicon glyphicon-home"></span>
+								</span>
+								<h3>生活</h3>
+								<ul class="reco-words">
+									<li><a href="">丽人</a></li>
+									<li><a href="">配镜</a></li>
+									<li><a href="">鲜花</a></li>
+									<li><a href="">宠物服务</a></li>
+									<li>
+										<a class="no-right-border no-right-padding" href="">
+											全部
+											<span class="all-cate-arrow"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="itemlist eight-row-height">
+								<li class="row-first-item narow-first-item clear-first">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/204.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【帝湖花园】新视觉摄影机构</h4>
+											</div>
+											<p>【推荐】儿童摄影！节假日通用，提供免费WiFi，提前2天预约，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>199
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>1999</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.4分</span>
+											<span class="sold">已售771</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/205.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【帝湖花园】新视觉摄影机构</h4>
+											</div>
+											<p>【推荐】写真3选1！提前2天预约，节假日通用，免费提供WiFi，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>199
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>1990</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售526</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/202.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【国贸360广场】水墨视觉婚纱摄影</h4>
+											</div>
+											<p>婚纱摄影套系1套，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>3599
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>6999</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售已售20344203</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/201.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【帝湖花园】新视觉摄影</h4>
+											</div>
+											<p>【推荐】婚纱套餐！节假日通用！提供免费WiFi！可叠加使用！请提前3天预约，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>1999
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>19999</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售175</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/211.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【动物园】凡视觉摄影公馆</h4>
+											</div>
+											<p>1000元代金券！免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>99
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>1000</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售536</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/203.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【锦艺城】巴黎宝贝儿童摄影</h4>
+											</div>
+											<p>超值儿童套系！节假日通用，店内提供免费WiFi，免费停车，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>198
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>1888</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售69</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/205.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】美年大健康体检</h4>
+											</div>
+											<p>【推荐】中老年超值体检套餐！请至少提前3天预约，免费WiFi、停车位，免费停车，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>299
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>585</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.1分</span>
+											<span class="sold">已售1793</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/206.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【动物园】爱多多高端儿童摄影</h4>
+											</div>
+											<p>【推荐】儿童摄影套系！多年专业摄影，豪华实景大影棚200平方，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>258
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>1988</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售720</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/209.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">童年映像儿童摄影</h4>
+											</div>
+											<p>孕妇摄影1次！免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>399
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>1399</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售120</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/208.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】诚果摄影</h4>
+											</div>
+											<p>【推荐】儿童摄影单人套餐 两本相册、34张精修、外景、底片全送、百天照，为您打造视觉享受，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>298
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>2288</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售879</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<a href="" class="check-all">
+								查看全部团购
+								<span class="all-cate-arrow"></span>
+							</a>
+						</div>
+						<div class="floor-content">
+							<div class="floor-header">
+								<span id="title-floor-l">
+									<span class="glyphicon glyphicon-object-align-bottom"></span>
+								</span>
+								<h3>酒店</h3>
+								<ul class="reco-words">
+									<li><a href="">郑州</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">上海</a></li>
+									<li>
+										<a class="no-right-border no-right-padding" href="">
+											全部
+											<span class="all-cate-arrow"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="itemlist eight-row-height">
+								<li class="row-first-item narow-first-item clear-first">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j1.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【汽车站】丰源宾馆</h4>
+											</div>
+											<p>普通标准间！需预约，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>109
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>138</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.9分</span>
+											<span class="sold">已售1134</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j2.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【高新区】速8酒店</h4>
+											</div>
+											<p>标准间入住1晚！需预约，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>168
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>238</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售77</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j3.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【西站】橙果酒店</h4>
+											</div>
+											<p>经济大床房1间！需预约，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>88
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>188</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.5分</span>
+											<span class="sold">已售441</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j4.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【郑飞集团】世纪银河假日酒店</h4>
+											</div>
+											<p>价值299元住宿+价值98元双人洗浴，需预约，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>189
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>397</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.2分</span>
+											<span class="sold">已售74</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j5.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【汽车站】丰源宾馆</h4>
+											</div>
+											<p>豪华标准间！需预约，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>119
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>150</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.9分</span>
+											<span class="sold">已售552</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j6.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【金博大购物中心】金蓝湾主题酒店</h4>
+											</div>
+											<p>栖霞路店特价房住宿1晚！可连续入住，节假日通用，提供免费WiFi、停车位！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>118
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>138</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.7分</span>
+											<span class="sold">已售302</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j7.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【金博大购物中心】金蓝湾主题酒店</h4>
+											</div>
+											<p>栖霞路店普通主题房！节假日通用，提供免费停车位、WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>138
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>188</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.3分</span>
+											<span class="sold">已售120</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j8.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【金博大购物中心】九州快捷酒店</h4>
+											</div>
+											<p>普通间1晚！免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>78
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>220</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">3.8分</span>
+											<span class="sold">已售312</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j9.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【金博大购物中心】金蓝湾主题酒店</h4>
+											</div>
+											<p>栖霞路店精美主题房！节假日通用，免费WiFi、停车位！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>158
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>208</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.3分</span>
+											<span class="sold">已售67</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/j10.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【星月时代广场】华都商务酒店</h4>
+											</div>
+											<p>标间或大床房房型2选1！需预约，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>108
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>188</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售66</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<a href="" class="check-all">
+								查看全部团购
+								<span class="all-cate-arrow"></span>
+							</a>
+						</div>
+						<div class="floor-content">
+							<div class="floor-header">
+								<span id="title-floor-l">
+									<span class="glyphicon glyphicon-map-marker"></span>
+								</span>
+								<h3>本地</h3>
+								<ul class="reco-words">
+									<li><a href="">温泉洗浴</a></li>
+									<li><a href="">采摘</a></li>
+									<li>
+										<a class="no-right-border no-right-padding" href="">
+											全部
+											<span class="all-cate-arrow"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="itemlist eight-row-height">
+								<li class="row-first-item narow-first-item clear-first">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b1.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【新密市政府】伏羲山大峡谷</h4>
+											</div>
+											<p>伏羲山大峡谷门票（成人票）1张！免费WiFi！请提前1天购买！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>54
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>60</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.5分</span>
+											<span class="sold">已售4707</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b2.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">孤柏渡飞黄旅游区</h4>
+											</div>
+											<p>双人票（门票+滑沙+缆车）1张，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>60
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>180</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售61</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b3.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">孤柏渡飞黄旅游区</h4>
+											</div>
+											<p>古柏渡飞黄旅游区成人票1张！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>75
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>90</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售16</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b4.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">汇川农业无花果采摘园</h4>
+											</div>
+											<p>无花果鲜果采摘1张！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>21.99
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>30</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售33</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b5.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】锦绣江山全国旅游年票</h4>
+											</div>
+											<p>【推荐】锦绣江山旅游年票一卡通！价格合理，超值套餐，风景秀丽，游山玩水，放松身心！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>98
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>30000</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售212</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b6.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【鑫苑鑫都汇】钰琪母婴精品生活馆</h4>
+											</div>
+											<p>游泳洗澡，婴儿游泳馆1次！需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>69
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>98</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售282</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b7.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【五龙口】动婴国际亲子游泳中心</h4>
+											</div>
+											<p>游泳套餐！提供洗浴设施，提供教练服务，提供储物柜！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>39.8
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>108</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售2</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b8.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【天旺广场】方特欢乐世界</h4>
+											</div>
+											<p>方特欢乐世界门票！形式新颖、内容丰富，适合不同年龄层游客的需要，价格优惠！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>205
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>230</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.6分</span>
+											<span class="sold">已售444</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b9.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】郑州海洋馆</h4>
+											</div>
+											<p>【推荐】海洋馆学生票！到幽深海洋的之处，体验的海底世界，让你感受浩瀚的风景</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>85
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>130</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.5分</span>
+											<span class="sold">已售1906</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/b10.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【2店通用】方特欢乐世界</h4>
+											</div>
+											<p>【推荐】郑州方特电子门票！节假日通用，免费停车位，进园前提前打电话即可出票！请提前30分钟预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>208
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>220</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">4.8分</span>
+											<span class="sold">已售536</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<a href="" class="check-all">
+								查看全部团购
+								<span class="all-cate-arrow"></span>
+							</a>
+						</div>
+						<div class="floor-content">
+							<div class="floor-header">
+								<span id="title-floor-l">
+									<span class="glyphicon glyphicon-user"></span>
+								</span>
+								<h3>丽人</h3>
+								<ul class="reco-words">
+									<li><a href="">美发</a></li>
+									<li><a href="">美容SPA</a></li>
+									<li><a href="">美甲</a></li>
+									<li><a href="">化妆</a></li>
+									<li>
+										<a class="no-right-border no-right-padding" href="">
+											全部
+											<span class="all-cate-arrow"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="itemlist eight-row-height">
+								<li class="row-first-item narow-first-item clear-first">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/l1.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【紫荆山】静静美睫美甲</h4>
+											</div>
+											<p>【推荐】698元代金券静静美甲美睫，两店通用，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>188
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>698</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售0</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/l2.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【人民公园东门】美丽时光美容医院</h4>
+											</div>
+											<p>100元代金券！免费停车，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>9.9
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>100</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售6</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/l3.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">刻美造型</h4>
+											</div>
+											<p>100元代金券，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>70
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>100</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售0</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/l4.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【紫荆山】迈博</h4>
+											</div>
+											<p>398元代金券！可叠加使用，节假日通用，提前3小时预约，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>100
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>398</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售0</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/l5.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【多城市】仟倩美容养生会所</h4>
+											</div>
+											<p>坤田名邸店100元代金券！可叠加使用，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>85
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>100</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">5.0分</span>
+											<span class="sold">已售28</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li class="row-first-item">
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/l6.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【碧沙岗】康悦莱健康养生会馆</h4>
+											</div>
+											<p>【碧沙岗】康悦莱健康养生会馆，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>85
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>100</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售0</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/l7.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【郑州海洋馆】瑞倪维儿</h4>
+											</div>
+											<p>100元代金券，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>90
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>100</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售0</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/l8.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【橡树玫瑰城】仟仟钰舒</h4>
+											</div>
+											<p>【推荐】500元代金券，免费停车，免费WiFi，需预约！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>1
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>500</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售2</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">
+										<div class="imgbox">
+											<div class="borderbox">
+												<img src="./images/l9.jpg" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="contentbox">
+										<a href="">
+											<div class="header">
+												<h4 class="title">【庙李】奕菲祛斑祛痘</h4>
+											</div>
+											<p>100元代金券，免费停车，免费WiFi！</p>
+										</a>
+										<div class="add-info"></div>
+										<div class="pinfo">
+											<span class="price">
+												<span class="moneyico">￥</span>1
+											</span>
+											<span class="ori-price">
+												门市价
+												<span class="price-line">
+													￥
+													<span>100</span>
+												</span>
+											</span>
+										</div>
+										<div class="footer">
+											<span class="comment">暂无评分</span>
+											<span class="sold">已售1</span>
+											<div class="bottom-border"></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<a href="" class="check-all">
+								查看全部团购
+								<span class="all-cate-arrow"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-category" id="c-bottom">
+
+				<div>	
+					<ul class="nav nav-tabs" role="tablist" id="myTabs">
+
+					    <li role="presentation" class="active">
+					    	<a id="hotShoppingTab" href="#hotShopping" role="tab" data-toggle="tab">热门商场</a>
+					    </li>
+
+					    <li role="presentation"><a id="hotCityTab" href="#hotCity" role="tab" data-toggle="tab">热门城市</a></li>
+
+					    <li role="presentation"><a id="selectedTab" href="#selected"  role="tab" data-toggle="tab">团购分类</a></li>
+					    
+					</ul>
+
+					<div class="tab-content">
+
+						<div role="tabpanel"  class="bottom-content tab-pane active" id="hotShopping" aria-labelledby="hotShoppingTab">
+							<ul>
+								<li><a href="">大商新玛特(金博大店)</a></li>
+								<li><a href="">郑州百货大楼</a></li>
+								<li><a href="">国贸360广场</a></li>
+								<li><a href="">曼哈顿商业广场</a></li>
+								<li><a href="">天旺广场</a></li>
+								<li><a href="">凯德广场金水</a></li>
+								<li><a href="">建文新世界商厦</a></li>
+								<li><a href="">唐人街文化广场</a></li>
+								<li><a href="">宝龙城市广场</a></li>
+								<li><a href="">丹尼斯7天地</a></li>
+								<li><a href="">万达广场(中原店)</a></li>
+							</ul>
+						</div>
+
+						<div role="tabpanel"  class="bottom-content tab-pane" id="hotCity" aria-labelledby="hotCityTab">
+							<ul>
+								<li><a href="">北京团购</a></li>
+								<li><a href="">成都团购</a></li>
+								<li><a href="">广州团购</a></li>
+								<li><a href="">杭州团购</a></li>
+								<li><a href="">南京团购</a></li>
+								<li><a href="">宁波团购</a></li>
+								<li><a href="">上海团购</a></li>
+								<li><a href="">深圳团购</a></li>
+								<li><a href="">沈阳团购</a></li>
+								<li><a href="">武汉团购</a></li>
+								<li><a href="">天津团购</a></li>
+								<li><a href="">无锡团购</a></li>
+								<li><a href="">重庆团购</a></li>
+								<li><a href="">厦门团购</a></li>
+								<li><a href="">西安团购</a></li>
+								<li><a href="">济南团购</a></li>
+								<li><a href="">哈尔滨团购</a></li>
+							</ul>
+						</div>
+
+						<div role="tabpanel"  aria-labelledby="selectedTab" class="bottom-content tab-pane" id="selected">
+							<ul>
+								<li><a href="">全部</a></li>
+								<li><a href="">今日新单</a></li>
+								<li><a href="">美食</a></li>
+								<li><a href="">电影</a></li>
+								<li><a href="">娱乐</a></li>
+								<li><a href="">生活</a></li>
+								<li><a href="">丽人</a></li>
+								<li><a href="">酒店</a></li>
+								<li><a href="">本地生活</a></li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 底部区域 -->
+	<div class="footer-content">
+		<div class="footer" id="footer">
+			<div class="footer-inner">
+				<div class="footer-size">
+					<h3>用户帮助</h3>
+					<ul>
+						<li><a href="">常见团购问题</a></li>
+						<li><a href="">开放API</a></li>
+					</ul>
+				</div>
+				<div class="footer-size2">
+					<h3>手机百度助手</h3>
+					<ul>
+						<li><a href="">百度糯米触屏版</a></li>
+						<li><a href="">下载手机版</a></li>
+					</ul>
+				</div>
+				<div class="footer-size2">
+					<h3>商务合作</h3>
+					<ul>
+						<li><a href="">友情链接</a></li>
+						<li><a href="">市场合作</a></li>
+					</ul>
+				</div>
+				<div class="footer-size2">
+					<h3>公司信息</h3>
+					<ul>
+						<li><a href="">关于百度糯米</a></li>
+						<li><a href="">百度糯米新浪微博</a></li>
+						<li><a href="">违规投诉</a></li>
+					</ul>
+				</div>
+				<div class="footer-size3">
+					<h3>4006-888-887</h3>
+					<ul>
+						<li><a href="">周一至周日 9:00-22:00</a></li>
+						<li><a href="">客服电话 免长途费</a></li>
+					</ul>
+					<a href="" class="mobile-btn">手机专享优惠</a>
+				</div>
+			</div>
+		</div>
+		<div id="copyright-info">
+			<div class="site-info">
+				<span class="copyright">&copy;</span>2017&nbsp;nuomi.com      &nbsp;
+				<a href="">京ICP证030173号</a>
+				&nbsp;京公网安备11010802014106号
+				&nbsp;
+				<a href="" class="link">营业执照信息</a>
+			</div>
+			<div class="icons">
+				<span class="ico-qianbao">百度钱包</span>
+				<span class="ico-zhifubao">支付宝-特约商家</span>
+				<span class="ico-kexin">可信网站 身份验证</span>
+				<span class="ico-web-trust">网站认证</span>
+			</div>
+		</div>
+		<div class="jinggong">
+			<a href="">
+				<img src="./images/police_logo_2aa5dfa.png" alt="">
+				<p>京公网安备 11000002000001号</p>
+			</a>
+		</div>
+	</div>
+	
+	<!-- 右侧回到顶部 -->
+	<ul class="bottom-ul">
+		<li>
+			<a href="">
+				<span class="glyphicon glyphicon-chevron-up"></span>
+				<span class="inner-text">回到顶部</span>
+			</a>
+		</li>
+		<li>
+			<a href="" class="imgHOver">
+				<span class="glyphicon glyphicon-qrcode"></span>
+				<div class="imgwrap">
+					<p class="img"></p>
+				</div>
+			</a>
+				
+		</li>
+		<li>
+			<a href="">
+				<span class="glyphicon glyphicon-folder-close"></span>
+				<span class="inner-text">问卷调查</span>
+			</a>
+		</li>
+	</ul>
+
+	<div class="bottom-ad">
+		<div>
+			<span class="close-bottom-ad" id="bottomBtn"></span>
+		</div>
+	</div>
+
 	<script src="./vendor/jquery/jquery-1.11.3.js"></script>
 	<script src="./vendor/bootstrap/js/bootstrap.js"></script>
 	<script src="./js/index.js"></script>

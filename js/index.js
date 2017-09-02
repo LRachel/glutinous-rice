@@ -1,0 +1,1 @@
+window.onload=function(){$("#myTabs a").mouseover(function(n){n.preventDefault(),$(this).tab("show")}),$("#bottomBtn").on("click",function(){$(this).parent().parent().hide()})};
